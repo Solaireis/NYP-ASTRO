@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Time Machine</title>
+
+  <!-- Standard CSS -->
+  <link rel="stylesheet" href="../CSS/Standard_CSS/Standard.css">
+
+  <!-- spacemap specific css-->
+  <link rel="stylesheet" href="../CSS/Specific_CSS/timeline.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../CSS/Bootstrap_CSS/bootstrap.css">
+
+
+  <!-- Bootstrap Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<div class="background">
+  <!-- Bootstrap Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-dark fixedNBar">
+   <div class="container-fluid NSC">
+     <a class="navbar-brand" href="../home.html"><img src="../Multimedia/images/nypAstroLogo.png" alt="NyP Astro" height="50px" width="60px" ></a>  <!-- NYP Astro Logo-->
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarText">
+
+       <!-- Left side of Navbar-->
+       <ul class="navbar-nav me-auto astro-pills mb-2 mb-lg-0">
+         <li class="nav-item">
+           <a class="nav-link " aria-current="page" href="aboutUs.html"> About Us</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="spaceMap.html">Space Map</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="funFactsHL.html">Fun Facts</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" href="timeMachine.html">Time Machine</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="contactUs.html" >Contact Us</a>
+         </li>
+       </ul>
+
+       <!-- Search Function -->
+        <div class="dropdown1 ">
+
+         <form action="search.html">
+            <input type="search" placeholder="Search.." id="myInput" onkeyup="filterFunction()" onkeydown="uSearch()" onsearch="userSearch()" class="navSearch" value="">
+             <div id="myDropdown" class="dropdown-content1">
+              <a href="aboutUs.html">About</a>
+              <a href="spaceMap.html">Space Map</a>
+              <a href="funFactsHL.html">Fun Facts</a>
+              <a href="contactUs.html">Contact Us</a>
+              <a href="timeMachine.html">Time Machine</a>
+              <a href="creditingimages.html">Credits</a>
+              <a href="../home.html">Home</a>
+
+              <!-- FunFacts search results -->
+              <a href="funFacts/colourOfMarsSun.html">Mars Sun</a>
+              <a href="funFacts/distanceFromEarthToMars.html">Distance From Earth to Mars</a>
+              <a href="funFacts/satelliteImages.html">How Satellites sent images</a>
+              <a href="funFacts/twinParadox.html">Twin Paradox</a>
+
+             <!-- event search results -->
+             <a href="events/event1.html">Welcome Session 1</a>
+             <a href="events/event2.html">Welcome Session 2</a>
+             <a href="events/event3.html">Evolution of Earth</a>
+             <a href="events/event4.html">Launch of Satellites and Spacecrafts</a>
+             <a href="events/event5.html">Elon Musk Mission to Mars</a>
+             <a href="events/event6.html">Life on Other Planets</a>
+             <a href="events/event7.html">Exoplanets in intergalactic Systems</a>
+             <a href="events/event8.html">Types of Stars </a>
+             <a href="events/event9.html">Life of a Star </a>
+             <a href="events/event10.html">Nebulae & Dust Clouds </a>
+             <a href="events/event11.html">Constellations </a>
+             <a href="events/event12.html">Blackholes </a>
+
+            </div>
+            <script src=" ../JavaScript/Standard_JS/standardSearch.js" charset="utf-8">
+            </script>
+          </form>
+         </div>
+         <!-- end of search functions-->
+
+     </div>
+   </div>
+ </nav>
+ <!-- spacer from navbar and content -->
+ <div class="sepPaddingNbar"></div>
+ <!-- back to top -->
+ <button id="GBTT" onclick="topFunction()"> [&#8682;] </button>
+ <!-- Standard JS -->
+ <script src="../JavaScript/Standard_JS/standard.js" charset="utf-8"></script>
+ <div class="starryNightBG sepPadding3">
+   <!-- img source Photo by <a href="https://unsplash.com/@jdiegoph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Diego PH</a> on <a href="https://unsplash.com/s/photos/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+
+    <!-- Content comes here! -->
+    <div class="container sepPadding3">
+
+      <!-- highlights -->
+      <div class="row sepPadding3">
+        <div class="col-lg-12 MTC pageAlign">
+          <p>Time Machine</p>
+          <p class="MSC">Peer into the past to see the treasures archived here</p>
+        </div>
+      </div>
+
+      <div class="row sepPadding3">
+          <div class="col-lg-12 SSC pageAlign">
+            <img src="" alt="Random image generator" class="imgbanner" id="imgRanGen" >
+            <script src="../JavaScript/Standard_JS/standardRan.js" charset="utf-8"></script>
+          </div>
+      </div>
+      <!-- Space Map Grid 1-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">2020</p>
+              <p>Due to Covid-19</p>
+              <p>Astro goes Online, ceasing physical sessions</p>
+            </a>
+          </div>
+        <div class="col-lg-6 SSC pageAlign">
+            <p></p>
+        </div>
+      </div>
+
+
+
+      <!-- Space Map Grid 2-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign">
+              <p></p>
+          </div>
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">2005</p>
+              <p>Overseas Trip to Desaru Golden Beach Resort</p>
+            </a>
+
+          </div>
+      </div>
+
+      <!-- Space Map Grid 2.1-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">2002</p>
+              <p>Astronomy Competition held at NYP</p>
+              <p>Many Secondary schools participated</p>
+            </a>
+          </div>
+        <div class="col-lg-6 SSC pageAlign">
+            <p></p>
+        </div>
+      </div>
+
+      <!-- Space Map Grid 2.1-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign">
+              <p></p>
+          </div>
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">2001</p>
+              <p>Ownership of  Club Room</p>
+              <p>Much of its history remains seemingly frozen in time</p>
+            </a>
+          </div>
+      </div>
+
+      <!-- Space Map Grid 3-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">1998</p>
+              <img src="../Multimedia/images/timeMachine/1997img1.jpeg" alt="out reach" class="imgbanner2">
+              <p>Astro Outreach programms to different schools</p>
+            </a>
+          </div>
+        <div class="col-lg-6 SSC pageAlign">
+            <p></p>
+        </div>
+      </div>
+
+      <!-- Space Map Grid 4-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign">
+              <p></p>
+          </div>
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">1997</p>
+              <img src="../Multimedia/images/telescopes/nypBuildOwnScopes.jpg" alt="NYP own Telescopes" class="imgbanner2">
+              <p>Sirius 4 and Infinite F6 telescopes build by our very own NYP students</p>
+              <p></p>
+            </a>
+          </div>
+      </div>
+
+      <!-- Space Map Grid 5-->
+      <div class="row sepPadding3">
+          <div class="col-lg-6 SSC pageAlign containerCard imghover">
+            <a href="#" class="eventLink eventLink2">
+              <p class="MSC">1994</p>
+              <p>Astronomy Club Establishment</p>
+            </a>
+            <div class="col-lg-6 SSC pageAlign">
+                <p></p>
+            </div>
+          </div>
+      </div>
+
+      <!-- Space Map Grid 6-->
+      <div class="row sepPadding3">
+        <div class="col-lg-12 MSC pageAlign">
+          <p>“Anyone who has never made a mistake has never tried anything new.”
+            </br>
+            ― Albert Einstein
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Footer -->
+    <footer class="footer-section text-white background2" >
+      <br/>
+      <br/>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <a href="../home.html"><img src="../Multimedia/images/nypAstroLogo.png" alt="logo" width="30%"></a>
+                  <p class="footer-description">NYP unofficial Astronomy club information website for members to find out more about astronomy club and what we offer</p>
+              </div>
+
+              <div class="col-md-1">
+                  &nbsp;
+              </div>
+
+              <div class="col-md-3">
+                  <h3>Space Map</h3>
+                  <ul>
+                      <li><a href="events/event1.html">Welcome Session 1</a></li><br/>
+
+                      <li><a href="events/event2.html">Welcome Session 2</a></li><br/>
+
+                      <li><a href="events/event3.html">Evolution of Earth</a></li><br/>
+
+                      <li><a href="events/event4.html">Launch of Satellites and Spacecrafts</a></li><br/>
+
+                      <li><a href="events/event5.html">Elon Musk Mission to Mars</a></li><br/>
+
+                      <li><a href="events/event6.html">Life on Other Planets</a></li><br/>
+
+                      <li><a href="events/event7.html">Exoplanets in intergalactic Systems</a></li><br/>
+
+                      <li><a href="events/event8.html">Types of Stars</a></li><br/>
+
+                      <li><a href="events/event9.html">Life of a Star</a></li><br/>
+
+                      <li><a href="events/event10.html">Nebulae &amp; Dust Clouds</a></li><br/>
+
+                      <li><a href="events/event11.html">Constellations</a></li><br/>
+
+                      <li><a href="events/event12.html">Blackholes</a></li><br/>
+
+                      <!--
+                      <li><a href="events/event13.html">History of Astronomy</a></li><br/> -->
+                  </ul>
+              </div>
+
+              <div class="col-md-3">
+                  <h3>Fun Facts</h3>
+                  <ul>
+                      <li><a href="funFacts/colourOfMarsSun.html">Colour of Mars Sun</a></li><br/>
+
+                      <li><a href="funFacts/distanceFromEarthToMars.html">Distance from Earth to Mars</a></li><br/>
+
+                      <li><a href="funFacts/twinParadox.html">Twin Paradox</a></li><br/>
+
+                      <li><a href="funFacts/satelliteImages.html">How Satellites send images to Earth</a></li><br/>
+                  </ul>
+              </div>
+
+
+
+              <div class="col-md-2">
+                  <h3>Others</h3>
+                  <ul>
+                      <li><a href="aboutUs.html">About Us</a></li><br/>
+
+                      <li><a href="contactUs.html">Contact Us</a></li><br/>
+
+                      <li><a href="creditingimages.html">Credits</a></li><br/>
+
+                  </ul>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-8 footer-copyright">
+                  NyP Astro Web Page <br/>
+                  (By:  Eden Will Sng Jin Xuan 『201520M』 ) &copy; 2021.
+              </div>
+
+              <div class="col-md-4">
+
+              </div>
+          </div>
+      </div>
+      <div class="sepPaddingNbar"></div>
+  </footer>
+</div>
+</body>
+</html>

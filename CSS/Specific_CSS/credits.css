@@ -1,0 +1,45 @@
+/*
+
+		Welcome to Specific CSS used for Nyp Astronomy webpage
+		Here will be Credits CSS
+		I. Structure of Standard.css
+		|
+		├─ 1. Credits
+
+*/
+
+/* --------------------------------------------------------------------------
+    1. Credits
+-------------------------------------------------------------------------- */
+
+/* basically i used this founds as i found them useful  the purpose of this css is just to credit the fonts in a special way */
+
+@font-face{
+  font-family:alice;
+  src: url('../../Multimedia/Fonts/Alice/Alice-Regular.ttf');
+}
+@font-face{
+  font-family:quicksand;
+  src: url('../../Multimedia/Fonts/Quicksand/static/Quicksand-Bold.ttf');
+  font-weight:bold;
+  font-style:normal;
+}
+
+@font-face{
+  font-family:quicksand;
+  src: url('../../Multimedia/Fonts/Quicksand/static/Quicksand-Light.ttf');
+  font-weight:normal;
+  font-style:normal;
+}
+.fontAlice{
+  font-size:20px;
+  font-family:alice;
+  color:#FFF;
+
+}
+
+.fontQS{
+  font-size:20px;
+  font-family:quicksand;
+  color:#FFF;
+}

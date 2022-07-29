@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+<rect x="296" y="416" style="fill:#FCD770;" width="80" height="80"/>
+<rect x="312" y="416" style="fill:#FFEAA7;" width="48" height="80"/>
+<rect x="120" y="416" style="fill:#FCD770;" width="80" height="80"/>
+<rect x="136" y="416" style="fill:#FFEAA7;" width="48" height="80"/>
+<path style="fill:#FCD770;" d="M456,352H40c-17.672,0-32-14.328-32-32l0,0c0-17.672,14.328-32,32-32h416c17.672,0,32,14.328,32,32
+	l0,0C488,337.672,473.672,352,456,352z"/>
+<path style="fill:#FFC729;" d="M456,288h-56c17.672,0,32,14.328,32,32s-14.328,32-32,32h56c17.672,0,32-14.328,32-32
+	S473.672,288,456,288z"/>
+<polygon style="fill:#ECECEC;" points="40,352 56,384 440,384 456,352 "/>
+<polygon style="fill:#B6C1CE;" points="400,352 384,384 440,384 456,352 "/>
+<g>
+	<rect x="120" y="384" style="fill:#AFB8C9;" width="80" height="32"/>
+	<rect x="296" y="384" style="fill:#AFB8C9;" width="80" height="32"/>
+</g>
+<g>
+	<rect x="344" y="384" style="fill:#8C95A4;" width="32" height="32"/>
+	<rect x="168" y="384" style="fill:#8C95A4;" width="32" height="32"/>
+</g>
+<path style="fill:#39C3FC;" d="M248,8C137.544,8,48,97.544,48,208v80h400v-80C448,97.544,358.456,8,248,8z"/>
+<rect x="176" y="88" style="fill:#AFB8C9;" width="128" height="200"/>
+<rect x="176" y="200" style="fill:#8C95A4;" width="128" height="88"/>
+<path style="fill:#148CE0;" d="M248,8c-6.752,0-13.424,0.344-20,1c101.064,10.032,180,95.296,180,199v80h40v-80
+	C448,97.544,358.456,8,248,8z"/>
+<path style="fill:#FCD770;" d="M152,160c-30.928,0-56,25.072-56,56v8h112v-8C208,185.072,182.928,160,152,160z"/>
+<g>
+	<rect x="80" y="224" style="fill:#ECECEC;" width="144" height="64"/>
+	<rect x="256" y="224" style="fill:#ECECEC;" width="160" height="64"/>
+</g>
+<g>
+	<rect x="80" y="264" style="fill:#B6C1CE;" width="144" height="24"/>
+	<rect x="256" y="264" style="fill:#B6C1CE;" width="160" height="24"/>
+</g>
+<g>
+	<rect x="352" y="128" style="fill:#ECECEC;" width="32" height="96"/>
+	<rect x="288" y="176" style="fill:#ECECEC;" width="32" height="48"/>
+</g>
+<path d="M496,320c0-22.056-17.944-40-40-40v-72C456,93.312,362.688,0,248,0S40,93.312,40,208v72c-22.056,0-40,17.944-40,40
+	c0,20.272,15.216,36.888,34.792,39.472L51.056,392H112v32h96v-32h80v32h96v-32h60.944l16.264-32.528
+	C480.784,356.888,496,340.272,496,320z M56,208c0-105.864,86.136-192,192-192s192,86.136,192,192v72h-16v-64h-32v-96h-48v96h-16v-48
+	h-16V80H168v74.104c-5.128-1.328-10.464-2.104-16-2.104c-35.288,0-64,28.712-64,64H72v64H56V208z M176,248v32h-16v-32h-16v32h-16
+	v-32h-16v32H88v-48h128v48h-24v-32H176z M200,216h-96c0-26.472,21.528-48,48-48S200,189.528,200,216z M216,216
+	c0-23.624-12.904-44.256-32-55.344V96h112v72h-16v48h-32v64h-16v-64H216z M296,216v-32h16v32H296z M264,232h144v48H264V232z
+	 M376,216h-16v-80h16V216z M192,408h-64v-16h64V408z M368,408h-64v-16h64V408z M60.944,376l-8-16h390.112l-8,16H60.944z M456,344H40
+	c-13.232,0-24-10.768-24-24s10.768-24,24-24h416c13.232,0,24,10.768,24,24S469.232,344,456,344z"/>
+<rect x="384" y="312" width="16" height="16"/>
+<rect x="416" y="312" width="16" height="16"/>
+<rect x="448" y="312" width="16" height="16"/>
+<rect x="328" y="480" width="16" height="16"/>
+<rect x="360" y="440" width="16" height="40"/>
+<rect x="296" y="440" width="16" height="40"/>
+<rect x="152" y="480" width="16" height="16"/>
+<rect x="184" y="440" width="16" height="40"/>
+<rect x="120" y="440" width="16" height="40"/>
+<rect x="328" y="440" width="16" height="24"/>
+<rect x="152" y="440" width="16" height="24"/>
+<path d="M217.52,50.912L214.48,35.2c-45.024,8.72-84.392,34.36-110.84,72.216l13.12,9.168C140.816,82.16,176.6,58.832,217.52,50.912
+	z"/>
+<path d="M248,48V32c-5.6,0-11.24,0.264-16.76,0.792l1.512,15.928C237.776,48.24,242.904,48,248,48z"/>
+<rect x="328" y="248" width="16" height="16"/>
+<rect x="368" y="248" width="16" height="16"/>
+<rect x="288" y="248" width="16" height="16"/>
+<rect x="200" y="112" width="16" height="16"/>
+<rect x="232" y="112" width="16" height="16"/>
+<rect x="264" y="112" width="16" height="16"/>
+<rect x="200" y="144" width="16" height="16"/>
+<rect x="232" y="144" width="16" height="16"/>
+<rect x="264" y="144" width="16" height="16"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

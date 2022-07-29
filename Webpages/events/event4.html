@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Launch of Satellites &amp; Spacecrafts</title>
+
+  <!-- Standard CSS -->
+  <link rel="stylesheet" href="../../CSS/Standard_CSS/Standard.css">
+
+
+  <!-- events CSS -->
+  <link rel="stylesheet" href="../../CSS/Specific_CSS/events.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <!-- Bootstrap Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div class="background">
+
+
+    <!-- Bootstrap Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-dark fixedNBar">
+     <div class="container-fluid NSC">
+       <a class="navbar-brand" href="../../home.html"><img src="../../Multimedia/images/nypAstroLogo.png" alt="NyP Astro" height="50px" width="60px" ></a>  <!-- NYP Astro Logo-->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarText">
+
+         <!-- Left side of Navbar-->
+         <ul class="navbar-nav me-auto astro-pills mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link " aria-current="page" href="../aboutUs.html"> About Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link active" href="../spaceMap.html">Space Map</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link " href="../funFactsHL.html">Fun Facts</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../timeMachine.html">Time Machine</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../contactUs.html" >Contact Us</a>
+           </li>
+         </ul>
+
+         <!-- Search Function -->
+          <div class="dropdown1 ">
+
+           <form action="search.html">
+              <input type="search" placeholder="Search.." id="myInput" onkeyup="filterFunction()" onkeydown="uSearch()" onsearch="userSearch()" class="navSearch" value="">
+               <div id="myDropdown" class="dropdown-content1">
+                <a href="../aboutUs.html">About</a>
+                <a href="../spaceMap.html">Space Map</a>
+                <a href="../funFactsHL.html">Fun Facts</a>
+                <a href="../contactUs.html">Contact Us</a>
+                <a href="../timeMachine.html">Time Machine</a>
+                <a href="../creditingimages.html">Credits</a>
+                <a href="../../home.html">Home</a>
+
+                <!-- FunFacts search results -->
+                <a href="../funFacts/colourOfMarsSun.html">Mars Sun</a>
+                <a href="../funFacts/distanceFromEarthToMars.html">Distance From Earth to Mars</a>
+                <a href="../funFacts/satelliteImages.html">How Satellites sent images</a>
+                <a href="../funFacts/twinParadox.html">Twin Paradox</a>
+
+               <!-- event search results -->
+               <a href="event1.html">Welcome Session 1</a>
+               <a href="event2.html">Welcome Session 2</a>
+               <a href="event3.html">Evolution of Earth</a>
+               <a href="event4.html">Launch of Satellites and Spacecrafts</a>
+               <a href="event5.html">Elon Musk Mission to Mars</a>
+               <a href="event6.html">Life on Other Planets</a>
+               <a href="event7.html">Exoplanets in intergalactic Systems</a>
+               <a href="event8.html">Types of Stars </a>
+               <a href="event9.html">Life of a Star </a>
+               <a href="event10.html">Nebulae & Dust Clouds </a>
+               <a href="event11.html">Constellations </a>
+               <a href="event12.html">Blackholes </a>
+
+              </div>
+
+            </form>
+           </div>
+          <!-- end of search functions-->
+
+       </div>
+     </div>
+   </nav>
+   <!-- spacer from navbar and content -->
+   <div class="sepPaddingNbar"></div>
+   <!-- back to top -->
+   <button id="GBTT" onclick="topFunction()"> [&#8682;] </button>
+
+
+
+    <!-- Content comes here! -->
+    <div class="container">
+
+      <!-- Banner -->
+      <div class="row sepPadding">
+        <div class="col-lg-12">
+          <img src="../../Multimedia/images/events/launchRocket.png" alt="rocket banner"  class="imgbanner" />
+        </div>
+      </div>
+
+      <!-- quote of the day -->
+      <div class="row sepPadding">
+        <div class="col-lg-12 pageAlign containerCard">
+          <p class="MSC"> Quote Of The Day </p>
+          <p class="SSC2">“We are part of this universe;we are in this universe, but perhaps more important than both of those facts, is that the universe is in us.”
+          </p>
+          <p class="SSC2">-Neil deGrasse Tyson</p>
+        </div>
+      </div>
+
+      <!-- container card-->
+      <div class="containerCard">
+
+        <!-- flow of events-->
+        <div class="sepPadding">
+          <table class="table table-dark table-striped table-hover SSC">
+            <caption class="MSC pageAlign">Flow Of Events </caption>
+
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1930 Hrs - 1940 Hrs</th>
+                <td>Attendance Taking</td>
+              </tr>
+              <tr>
+                <th scope="row">1940 Hrs - 2010 Hrs</th>
+                <td>Presentation of Launch of Satellites &amp; Spacecraft</td>
+              </tr>
+              <tr>
+                <th scope="row">2010 Hrs - 2040 Hrs</th>
+                <td>Breakout Rooms Discussions</td>
+              </tr>
+              <tr>
+                <th scope="row">2040 Hrs - 2055 Hrs</th>
+                <td>Voting Time & QnA</td>
+              </tr>
+              <tr>
+                <th scope="row">2055 Hrs - 2100 Hrs</th>
+                <td>Debrief &amp; Conclusion</td>
+              </tr>
+              <tr>
+                <th scope="row">2100 Hrs  -  2115 Hrs</th>
+                <td>Possibility of Extension</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- outline of event -->
+        <div class="row sepPadding2">
+          <div class="col-lg-12 pageAlign">
+            <p class="MSC">Summary</p>
+            <p class="SSC2">(It will only summarised the first chapter of each event.)</p>
+          </div>
+        </div>
+
+
+
+      <!-- introduction-->
+      <div class="row sepPadding">
+        <div class="col-lg-12 pageAlign SSC">
+          <p > This event talks about the launch of satellites and rockets. From rocket science, the difference between rockets and missiles, launch vehicles and orbital mechanics will be covered in this event.</p>
+          <p > First and foremost, we will introduced some theories needed to launch a rocket</p>
+        </div>
+      </div>
+
+        <!-- definition terms-->
+        <div class="row sepPadding3">
+          <div class="col-lg-6 pageAlign SSC">
+            <img src="../../Multimedia/images/events/rockets1.gif" alt="Rockets mass"  class="imgbanner" />
+            <div class="CSC CSCA">
+              <br/>
+              <p>( Image source:
+              <a href="https://www.grc.nasa.gov/www/k-12/rocket/rktwtp.html" >Nasa, Rocket Mass Ratios</a> )</p>
+            </div>
+          </div>
+          <div class="col-lg-6 pageAlign SSC">
+            <img src="../../Multimedia/images/events/rockets2.gif" alt="Rocket eqn"  class="imgbanner" />
+            <div class="CSC CSCA">
+              <br/>
+              <p>( Image source:
+              <a href="https://www.grc.nasa.gov/www/k-12/rocket/rktpow.html" >Nasa, Ideal Rocket Equation</a> )</p>
+            </div>
+          </div>
+        </div>
+        <div class="row sepPadding3">
+          <div class="col-lg-6 pageAlign SSC">
+            <img src="../../Multimedia/images/events/rockets3.gif" alt="Dynamic Pressure"  class="imgbanner" />
+            <div class="CSC CSCA">
+              <br/>
+              <p>( Image source:
+              <a href="https://www.grc.nasa.gov/www/k-12/airplane/dynpress.html" >Nasa, Dyanmic Pressure</a> )</p>
+            </div>
+          </div>
+          <div class="col-lg-6 pageAlign SSC">
+            <img src="../../Multimedia/images/events/rockets4.gif" alt="Rocket thurst summary"  class="imgbanner" />
+            <div class="CSC CSCA">
+              <br/>
+              <p>( Image source:
+              <a href="https://www.grc.nasa.gov/www/k-12/rocket/rktthsum.html" >Nasa, Rocket Trust Summary</a> )</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- application -->
+        <div class="row sepPadding3">
+          <div class="col-lg-12 pageAlign SSC">
+            <p class="MSC"> Application</p>
+            <p > These theories can then be applied when making a rocket to ensure it is likely to  get into space. However, as the name implies, its an ideal equantion which does not factor in different factors such as air resistance and possibilities of random errors, the frame of the rocket and more.</p>
+          </div>
+        </div>
+
+        <!-- introduction to rocket engines -->
+        <div class="row sepPadding">
+          <div class="col-lg-12 pageAlign SSC">
+            <p class="MSC"> Types of Rocket Engines</p>
+          </div>
+        </div>
+          <!-- Types of Rockets-->
+          <!-- liquid rocket engine -->
+          <div class="row sepPadding3">
+            <div class="col-lg-6 pageAlign SSC">
+              <img src="../../Multimedia/images/events/rockets5.gif" alt="Liquid rocket Engine"  class="imgbanner" />
+              <div class="CSC CSCA">
+                <br/>
+                <p>( Image source:
+                <a href="https://www.grc.nasa.gov/www/k-12/airplane/lrockth.html" >Nasa, Liquid Rocket Engine</a> )</p>
+              </div>
+            </div>
+            <div class="col-lg-6 pageAlign SSC">
+              <p class="MSC"> Liquid Fuel Engines</p>
+              <p >
+                This is how a cross section of a liquid fuel engine looks like. It  consists of 3 parts.- Liquid Fuel, Liquid Oxidizer and Combustion Chamber.
+              </p>
+
+              <p> The liquid fuel is the propellent. </p>
+
+              <p> Liquid oxidizer is used so that the engine can be used in space or any place with low or no oxygen (as  combustion requires oxygen) </p>
+
+              <p>
+              The pumps pump the fuel and oxidizers in a pre-determined ratio to maximize combustion and force release. </p>
+
+              <p> Lastly the combustion chamber is where the propellent exits the rocket and pushes the air downward, causing the rocket to be propelled up. </p>
+              </p>
+            </div>
+          </div>
+
+          <!-- Solid Rocket -->
+          <div class="row sepPadding3">
+            <div class="col-lg-6 pageAlign SSC">
+              <img src="../../Multimedia/images/events/rockets6.gif" alt="Solid rocket engine"  class="imgbanner" />
+              <div class="CSC CSCA">
+                <br/>
+                <p>( Image source:
+                <a href="https://www.grc.nasa.gov/www/k-12/rocket/srockth.html" >Nasa, Solid Rocket Engine</a> )</p>
+              </div>
+            </div>
+            <div class="col-lg-6 pageAlign SSC">
+              <p class="MSC"> Solid Fuel Engine</p>
+              <p> The solid fuel takes up most of the rocket as it the propellent. It consists of a mixture of solid fuel and oxidizer in a solid form. </p>
+              <p>The ignition motor, as the name suggest is a motor that ignites the rocket, allowing the propellent to burn. </p>
+              <p>Lastly the combustion chamber is where the propellent exits the rocket and pushes the air downward, causing the rocket to be propelled up.</p>
+              </p>
+            </div>
+          </div>
+
+          <!-- Hybird Rocket -->
+          <div class="row sepPadding3">
+            <div class="col-lg-6 pageAlign SSC">
+              <img src="../../Multimedia/images/events/rockets7.png" alt=" Hybird rocket engine"  class="imgbanner" />
+              <div class="CSC CSCA">
+                <br/>
+                <p>( Image source:
+                <a href="https://www.researchgate.net/figure/Schematic-diagram-of-Hybrid-Rocket-Engine_fig3_344085977" >Sasi Kiran Palateerdham, Hybrid Rocket Engine Diagram</a> )</p>
+              </div>
+            </div>
+            <div class="col-lg-6 pageAlign SSC">
+              <p class="MSC"> Hybrid Engines</p>
+              <p> Researchers are currently working on a hybrid engine which will essentially be a solid fuel engine but one in which you can control the thrust percentage. </p>
+              <p>Here's a cross-section of how it would look like. It has similar design as the solid fuel engine, however, instead of a mixture of a mixture of solid fuel and oxidizer in a solid form,it is only going to be propellent. </p>
+
+              <p>The oxidizer will be stored above the propellent and will be attached to pump, which will allow only a limited amount of oxidizer to pass though. Using this, we will be able to control the thrust percentage of the rocket</p>
+            </div>
+          </div>
+          <div class="sepPadding"></div> <!-- increases seperation -->
+
+          <!-- to be continued -->
+          <div class="row sepPadding3">
+            <div class="col-lg-12 pageAlign SSC">
+              <p class=MSC> To be Continued...</p>
+              <p>That marks the end of the 1st chapter, if you're interested to read the full powerpoint slide on the link below to download the slide materials. The link will also showcase to your other event slides which you are free to download as well.</p>
+              <br/>
+              <a href="https://drive.google.com/drive/folders/1y6UEIny7iwz3o4LmfjnMp9viZ-NQ3OhE?usp=sharing" target="_blank"><button class="searchbutton searchbuttonhover TSC">Click here to download the slides</button></a>
+            </div>
+          </div>
+
+          <!-- breakout rooms content -->
+          <div class="row sepPadding">
+            <div class="col-lg-12 pageAlign SSC">
+                <p class="MSC"> Kahoot </p>
+                <img src="../../Multimedia/images/events/roomEvent4.jpg" alt="Break Out Rooms Image"  class="imgbanner" />
+                <br/>
+                <p>Members were grouped into small breakout rooms where they put their creativity to the test and created very unique rockets.</p>
+                <p>feel free to design your own rockets based on the prompt given!</p>
+                <br/>
+                <a href="../spaceMap.html#event4"><button class="searchbutton searchbuttonhover TSC">Check out other Events</button></a>
+            </div>
+          </div>
+
+      </div>
+  </div>
+
+      <div class="sepPaddingNbar"></div> <!-- ensures that theres padding seperating content and footer -->
+
+      <!-- Footer -->
+        <footer class="footer-section text-white background2" >
+          <br/>
+          <br/>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <a href="../home.html"><img src="../../Multimedia/images/nypAstroLogo.png" alt="logo" width="30%"></a>
+                      <p class="footer-description">NYP unofficial Astronomy club information website for members to find out more about astronomy club and what we offer</p>
+                  </div>
+
+                  <div class="col-md-1">
+                      &nbsp;
+                  </div>
+
+                  <div class="col-md-3">
+                      <h3>Space Map</h3>
+                      <ul>
+                          <li><a href="event1.html">Welcome Session 1</a></li><br/>
+
+                          <li><a href="event2.html">Welcome Session 2</a></li><br/>
+
+                          <li><a href="event3.html">Evolution of Earth</a></li><br/>
+
+                          <li><a href="event4.html">Launch of Satellites and Spacecrafts</a></li><br/>
+
+                          <li><a href="event5.html">Elon Musk Mission to Mars</a></li><br/>
+
+                          <li><a href="event6.html">Life on Other Planets</a></li><br/>
+
+                          <li><a href="event7.html">Exoplanets in intergalactic Systems</a></li><br/>
+
+                          <li><a href="event8.html">Types of Stars</a></li><br/>
+
+                          <li><a href="event9.html">Life of a Star</a></li><br/>
+
+                          <li><a href="event10.html">Nebulae &amp; Dust Clouds</a></li><br/>
+
+                          <li><a href="event11.html">Constellations</a></li><br/>
+
+                          <li><a href="event12.html">Blackholes</a></li><br/>
+
+                          <!--
+                          <li><a href="event13.html">History of Astronomy</a></li><br/> -->
+                      </ul>
+                  </div>
+
+                  <div class="col-md-3">
+                      <h3>Fun Facts</h3>
+                      <ul>
+                          <li><a href="../funFacts/colourOfMarsSun.html">Colour of Mars Sun</a></li><br/>
+
+                          <li><a href="../funFacts/distanceFromEarthToMars.html">Distance from Earth to Mars</a></li><br/>
+
+                          <li><a href="../funFacts/twinParadox.html">Twin Paradox</a></li><br/>
+
+                          <li><a href="../funFacts/satelliteImages.html">How Satellites send images to Earth</a></li><br/>
+                      </ul>
+                  </div>
+
+
+
+                  <div class="col-md-2">
+                      <h3>Others</h3>
+                      <ul>
+                          <li><a href="../aboutUs.html">About Us</a></li><br/>
+
+                          <li><a href="../contactUs.html">Contact Us</a></li><br/>
+
+                          <li><a href="../creditingimages.html">Credits</a></li><br/>
+
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-8 footer-copyright">
+                      NyP Astro Web Page <br/>
+                      (By:  Eden Will Sng Jin Xuan 『201520M』 ) &copy; 2021.
+                  </div>
+
+                  <div class="col-md-4">
+
+                  </div>
+              </div>
+          </div>
+          <div class="sepPaddingNbar"></div>
+      </footer>
+</div>
+
+<!-- Standard JS -->
+<script src="../../JavaScript/Standard_JS/standard.js" charset="utf-8"></script>
+<!-- search Js-->
+<script src=" ../../JavaScript/Standard_JS/standardSearch.js" charset="utf-8"></script>
+
+
+</body>
+</html>

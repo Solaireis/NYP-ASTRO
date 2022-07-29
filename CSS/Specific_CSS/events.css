@@ -1,0 +1,31 @@
+/*
+
+		Welcome to Specific CSS used for Nyp Astronomy webpage
+		Here will be events CSS
+		I. Structure
+		|
+		├─ 1. Events
+
+*/
+
+/* --------------------------------------------------------------------------
+    1.Events
+-------------------------------------------------------------------------- */
+
+/* Fixes the tables issues i faced */
+
+/* align table to centre */
+
+table.center{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* fix caption floating at the bottom */
+caption{
+  caption-side:top;
+}
+table{ /* removes borders */
+  border:collapse;
+  border:1px solid white;
+}

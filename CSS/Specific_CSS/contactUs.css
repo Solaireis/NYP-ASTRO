@@ -1,0 +1,66 @@
+/*
+
+		Welcome to Specific CSS used for Nyp Astronomy webpage
+		Here will be Contact Us CSS
+		I. Structure of Standard.css
+		|
+		├─ 1. contact us
+
+*/
+
+/* --------------------------------------------------------------------------
+    1.contact us
+-------------------------------------------------------------------------- */
+
+/* stylying buttons for submission */
+.button1{
+	background-color: #10113f;
+	border:1px solid #10113f;
+	color: #db3a49;
+	border-radius: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+/* hover active button */
+.button2:hover{
+		background-color: #10113f;
+		border:2px solid #FFC07F;
+		color: #FFC07F;
+		border-radius: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+/* Secondary Subtitle Caption third variant */
+.TSC3 {
+  font-size: 20px;
+  color:#000;
+  font-family:quicksand;
+}
+/* styles the input form to my liking */
+input.formStyle{
+	border-radius: 10px;
+	width:100%;
+	padding:10px;
+	outline:none;
+	border: 3px solid #555;
+	-webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.formStyleH:focus{
+	border:4px solid #FFC07F;
+	width:100%;
+	padding:10px;
+}
+textarea.formStyle2{
+	border-radius: 10px;
+	width:100%;
+	padding:10px;
+	outline:none;
+	border: 3px solid #555;
+	-webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/* seperates the input */
+.formSep{
+	margin-left:10px;
+}

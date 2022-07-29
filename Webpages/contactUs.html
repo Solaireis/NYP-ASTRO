@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+
+  <!-- Standard CSS -->
+  <link rel="stylesheet" href="../CSS/Standard_CSS/Standard.css">
+
+  <!-- events CSS -->
+  <link rel="stylesheet" href="../CSS/Specific_CSS/events.css">
+
+  <!-- contact us CSS -->
+  <link rel="stylesheet" href="../CSS/Specific_CSS/contactUs.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../CSS/Bootstrap_CSS/bootstrap.css">
+
+
+  <!-- Bootstrap Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../Multimedia/Icons/apple-favicon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../Multimedia/Icons/favicon.png" />
+
+
+</head>
+<body>
+
+  <div class="background">
+
+     <!-- Bootstrap Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark fixedNBar">
+      <div class="container-fluid NSC">
+        <a class="navbar-brand" href="../home.html"><img src="../Multimedia/images/nypAstroLogo.png" alt="NyP Astro" height="50px" width="60px" ></a>  <!-- NYP Astro Logo-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+
+          <!-- Left side of Navbar-->
+          <ul class="navbar-nav me-auto astro-pills mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="aboutUs.html"> About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="spaceMap.html">Space Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="funFactsHL.html">Fun Facts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="timeMachine.html">Time Machine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contactUs.html" >Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- Search Function -->
+           <div class="dropdown1 ">
+
+            <form action="search.html">
+               <input type="search" placeholder="Search.." id="myInput" onkeyup="filterFunction()" onkeydown="uSearch()" onsearch="userSearch()" class="navSearch" value="">
+                <div id="myDropdown" class="dropdown-content1">
+                 <a href="aboutUs.html">About</a>
+                 <a href="spaceMap.html">Space Map</a>
+                 <a href="funFactsHL.html">Fun Facts</a>
+                 <a href="contactUs.html">Contact Us</a>
+                 <a href="timeMachine.html">Time Machine</a>
+                 <a href="creditingimages.html">Credits</a>
+                 <a href="../home.html">Home</a>
+
+                 <!-- FunFacts search results -->
+                 <a href="funFacts/colourOfMarsSun.html">Mars Sun</a>
+                 <a href="funFacts/distanceFromEarthToMars.html">Distance From Earth to Mars</a>
+                 <a href="funFacts/satelliteImages.html">How Satellites sent images</a>
+                 <a href="funFacts/twinParadox.html">Twin Paradox</a>
+
+                <!-- event search results -->
+                <a href="events/event1.html">Welcome Session 1</a>
+                <a href="events/event2.html">Welcome Session 2</a>
+                <a href="events/event3.html">Evolution of Earth</a>
+                <a href="events/event4.html">Launch of Satellites and Spacecrafts</a>
+                <a href="events/event5.html">Elon Musk Mission to Mars</a>
+                <a href="events/event6.html">Life on Other Planets</a>
+                <a href="events/event7.html">Exoplanets in intergalactic Systems</a>
+                <a href="events/event8.html">Types of Stars </a>
+                <a href="events/event9.html">Life of a Star </a>
+                <a href="events/event10.html">Nebulae & Dust Clouds </a>
+                <a href="events/event11.html">Constellations </a>
+                <a href="events/event12.html">Blackholes </a>
+
+               </div>
+               <script src=" ../JavaScript/Standard_JS/standardSearch.js" charset="utf-8">
+               </script>
+             </form>
+            </div>
+            <!-- end of search functions-->
+
+        </div>
+      </div>
+    </nav>
+    <!-- spacer from navbar and content -->
+    <div class="sepPaddingNbar"></div>
+    <!-- back to top -->
+    <button id="GBTT" onclick="topFunction()"> [&#8682;] </button>
+    <!-- Standard JS -->
+    <script src="../JavaScript/Standard_JS/standard.js" charset="utf-8"></script>
+
+
+    <!-- Content comes here! -->
+    <div class="container sepPadding3">
+
+      <!-- Banner -->
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="../Multimedia/images/contactUsBanner2.png" alt=""  class="imgbanner" />
+        </div>
+      </div>
+        <br/>
+        <br/>
+        <br/>
+        <!-- Social Media Links Accordion -->
+        <button class="MSC accordionButton accordionButtonH ">Social Media Links</button>
+        <div class="panel">
+          <div class="sepPadding"></div>
+          <!-- Social Media header -->
+          <div class="row pageAlign sepPadding" >
+            <div class="col-lg-12">
+              <p class="MSC">Follow Us here!</p>
+              <hr style="border:2px solid #FFF"/>
+            </div>
+          </div>
+          <!-- Astronomy NYP official site -->
+          <div class="row pageAlign sepPadding2" >
+            <!-- Blank Seperator -->
+            <div class="col-lg-6">
+              <a href="https://www.nyp.edu.sg/student-life/cca/community-service-and-environment/astronomy-club.html" target="_blank">
+                <img src="../Multimedia/images/nypAstroLogo.png" class="iconbanner" alt="Discord" >
+              </a>
+              <p class="MSC">NYP Astronomy Official Page </p>
+            </div>
+            <div class="col-lg-6">
+              <br/>
+              <p class="SSC sepPadding">Here contains the official CCA page about NYP Astronomy Club, here you can find the registration link</p>
+              <br/>
+              <a href="https://www.nyp.edu.sg/student-life/cca/community-service-and-environment/astronomy-club.html" target="_blank" ><button class="searchbutton searchbuttonhover TSC">Find out more</button></a>
+            </div>
+          </div>
+
+          <!-- social media content -->
+          <div class="row pageAlign sepPadding2" >
+            <div class="col-lg-6">
+
+              <a href="https://www.instagram.com/nypastro/" target="_blank" >
+                <img src="../Multimedia/images/Instagram.png" class="iconbanner" alt="Instagram" >
+              </a>
+              <p class="MSC">Astronomy Instagram</p>
+            </div>
+            <!-- Blank Seperator -->
+            <div class="col-lg-6">
+              <br/>
+              <p class="SSC">Click here to see the various awesome events we have done so far!</p>
+              <br/>
+              <a href="https://www.instagram.com/nypastro/" target="_blank" ><button class="searchbutton searchbuttonhover TSC">Check our Insta Here!</button></a>
+            </div>
+          </div>
+          <!-- Discord -->
+          <div class="row pageAlign sepPadding2" >
+            <!-- Blank Seperator -->
+            <div class="col-lg-6">
+              <a href="https://discord.gg/UABnsXq4" target="_blank">
+                <img src="../Multimedia/images/Discord2.png" class="iconbanner" alt="Discord" >
+              </a>
+              <p class="MSC">Astronomy Discord</p>
+            </div>
+            <div class="col-lg-6">
+              <br/>
+              <p class="SSC sepPadding">Join here to make friends, watch astronomical livestreams and get early access to what NYP Astro is up to!</p>
+              <br/>
+              <a href="https://discord.gg/78cRJGdcYT" target="_blank" ><button class="searchbutton searchbuttonhover TSC">Join the Discord Here!</button></a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- end of banner-->
+        <div class="sepPadding"></div>
+
+        <!-- Frequently Asked Questions -->
+        <button class="MSC accordionButton accordionButtonH " id="tshirts">Frequently Asked Questions </button>
+        <div class="panel">
+          <div class="sepPadding"></div>
+          <!-- FAQ -->
+          <div class="row pageAlign sepPadding" >
+            <div class="col-lg-12 SSC">
+              <p class="MSC">What are the session timings?</p>
+              <hr style="border:2px solid #FFF"/>
+              <!-- session timings-->
+              <table class="table table-dark table-striped table-hover SSC">
+                <thead>
+                  <tr>
+                    <th scope="col">Timings</th>
+                    <th scope="col">Day</th>
+                    <th scope="col">Scope of Session</th>
+                    <th scope="col">Venue</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1900 Hrs - 2100 Hrs</th>
+                    <td>Friday</td>
+                    <td>Physical &amp; Virtual</td>
+                    <td>Block N (Physical Attendees) &amp; Zoom (Virtual Attendees)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1900 Hrs - 2100 Hrs</th>
+                    <td>Friday</td>
+                    <td>Physical</td>
+                    <td>Block N</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1930 Hrs - 2100 Hrs</th>
+                    <td>Friday</td>
+                    <td>Virtual</td>
+                    <td>Zoom</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>As COVID-19 is very fluid our sessions venue and timings do differ based on the situation. As such the above table is representative of the current events.</p>
+            </div>
+          </div>
+          <div class="row pageAlign sepPadding">
+            <div class="col-lg-12 SSC">
+              <p class="MSC">What do you do during your sessions?</p>
+              <hr style="border:2px solid #FFF"/>
+              <img src="../Multimedia/images/events/summaryEvent1.jpeg" alt="Summary of Event 1"  class="imgbanner" />
+              <br/>
+              <p>We host space themed sharings weekly. Examples includes Evolution of Earth, Life of a Star, Black Holes etc. After the sharing members will test their learning through a competitive kahoot game or a break out room discussions to work in a team to share their ideas. </p>
+              <p>The theme of the event is chosen based on the space map where we will talk about space topics as we travel further away from the solar system.</p>
+              <a href="spaceMap.html"><button class="searchbutton searchbuttonhover TSC">Check out the Space Map</button></a>
+              <br/>
+              <br/>
+              <p>If session is conducted physically, we do have Star gazing sessions with our members where we will see the beautiful night sky. Examples of photos taken from NYP is shown below.</p>
+              <img src="../Multimedia/images/events/astroPhoto.JPG"  alt="AstroPhotography" class="imgbanner" />
+            </div>
+          </div>
+        </div>
+        <div class="sepPadding" ></div>
+        <!-- start of banner-->
+
+        <!-- Frequently Asked Questions -->
+        <button class="MSC accordionButton accordionButtonH " >T Shirt Interest Details</button>
+        <div class="panel">
+          <div class="sepPadding"></div>
+          <!-- FAQ -->
+          <div class="row pageAlign sepPadding" >
+            <div class="col-lg-12 SSC">
+              <p class="MSC">T Shirts Designs</p>
+              <hr style="border:2px solid #FFF"/>
+              <img src="../Multimedia/images/tshirt/JacketDesign6.png"  alt="About Us" class="imgbanner" />
+              <br/>
+              <img src="../Multimedia/images/tshirt/ShirtDesign4.png"  alt="About Us" class="imgbanner" />
+              <br/>
+              <p>Here are some samples of the T shirt designs we have come out so far. These are not the final designs nor are they the only designs we have! Stay tune for more updates on the T Shirt Details!</p>
+            </div>
+          </div>
+        </div>
+        <div class="sepPadding"></div>
+      <!-- end of banner-->
+        <!-- Enquiry form -->
+        <div class="row pageAlign sepPadding" >
+          <div class="col-lg-12">
+            <p class="MSC ">Enquiry</p>
+            <hr style="border:2px solid #FFF"/>
+
+          </div>
+
+        </div>
+        <div class="row sepPadding3" >
+          <div class="col-lg-6">
+            <img src="../Multimedia/images/enquiry.jpg" class="imgbanner" alt="">
+            <p class="TSC"> </p>
+          </div>
+          <div class="col-lg-6">
+            <!-- Enquiries Input Form-->
+            <form method="get" action="formSubmission.html" class="formSep">
+
+                <!-- name -->
+              <label for="username" class="SSC" >Name:</label><br/>
+              <input type="text" placeholder="John Doe" id="username" size="40px" required class="TSC3 formStyle formStyleH" />
+              <br/>
+              <br/>
+
+              <!-- email -->
+              <label for="email" class="SSC" >Email:</label><br/>
+              <input type="email" placeholder="e.g. John_Doe@gmail.com" id="email" size="40px" requiredc class="TSC3 formStyle formStyleH" />
+              <br/>
+              <br/>
+
+
+
+              <!-- type of enquires-->
+              <label for="subject" class="SSC">Type of Enquiry:</label><br/>
+              <input list="enquries" name="enquries" id="subject" placeholder="Please select one" size="40px" required class="TSC3 formStyle formStyleH">
+              <datalist id="enquries" />
+                  <option value="Feedback on Website" />
+                  <option value="Questions about Astronomy Club" />
+                  <option value="Copyright disputes about the website" />
+                  <option value="Inaccuracy of Content" />
+                  <option value="Others" />
+              </datalist>
+              <br/>
+              <br/>
+
+                <!-- Message -->
+                <label for="message" class="SSC">Leave your messages here:</label>
+                <textarea id="message" rows="6" cols="40"  placeholder="Write your message here" required class="TSC3 formStyle formStyle2 formStyleH"></textarea>
+                <br/>
+                <br/>
+
+                <input type="submit" class="button1 button2 SSC2" Value="Submit" onclick="userForm()"/>&nbsp;<input type="reset" class="button1 button2 SSC2" value="Clear" />
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Footer -->
+        <footer class="footer-section text-white background2" >
+          <br/>
+          <br/>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <a href="../home.html"><img src="../Multimedia/images/nypAstroLogo.png" alt="logo" width="30%"></a>
+                      <p class="footer-description">NYP unofficial Astronomy club information website for members to find out more about astronomy club and what we offer</p>
+                  </div>
+
+                  <div class="col-md-1">
+                      &nbsp;
+                  </div>
+
+                  <div class="col-md-3">
+                      <h3>Space Map</h3>
+                      <ul>
+                          <li><a href="events/event1.html">Welcome Session 1</a></li><br/>
+
+                          <li><a href="events/event2.html">Welcome Session 2</a></li><br/>
+
+                          <li><a href="events/event3.html">Evolution of Earth</a></li><br/>
+
+                          <li><a href="events/event4.html">Launch of Satellites and Spacecrafts</a></li><br/>
+
+                          <li><a href="events/event5.html">Elon Musk Mission to Mars</a></li><br/>
+
+                          <li><a href="events/event6.html">Life on Other Planets</a></li><br/>
+
+                          <li><a href="events/event7.html">Exoplanets in intergalactic Systems</a></li><br/>
+
+                          <li><a href="events/event8.html">Types of Stars</a></li><br/>
+
+                          <li><a href="events/event9.html">Life of a Star</a></li><br/>
+
+                          <li><a href="events/event10.html">Nebulae &amp; Dust Clouds</a></li><br/>
+
+                          <li><a href="events/event11.html">Constellations</a></li><br/>
+
+                          <li><a href="events/event12.html">Blackholes</a></li><br/>
+
+                          <!--
+                          <li><a href="events/event13.html">History of Astronomy</a></li><br/> -->
+                      </ul>
+                  </div>
+
+                  <div class="col-md-3">
+                      <h3>Fun Facts</h3>
+                      <ul>
+                          <li><a href="funFacts/colourOfMarsSun.html">Colour of Mars Sun</a></li><br/>
+
+                          <li><a href="funFacts/distanceFromEarthToMars.html">Distance from Earth to Mars</a></li><br/>
+
+                          <li><a href="funFacts/twinParadox.html">Twin Paradox</a></li><br/>
+
+                          <li><a href="funFacts/satelliteImages.html">How Satellites send images to Earth</a></li><br/>
+                      </ul>
+                  </div>
+
+
+
+                  <div class="col-md-2">
+                      <h3>Others</h3>
+                      <ul>
+                          <li><a href="aboutUs.html">About Us</a></li><br/>
+
+                          <li><a href="contactUs.html">Contact Us</a></li><br/>
+
+                          <li><a href="creditingimages.html">Credits</a></li><br/>
+
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-8 footer-copyright">
+                      NyP Astro Web Page <br/>
+                      (By:  Eden Will Sng Jin Xuan 『201520M』 ) &copy; 2021.
+                  </div>
+
+                  <div class="col-md-4">
+
+                  </div>
+              </div>
+          </div>
+          <div class="sepPaddingNbar"></div>
+      </footer>
+</div>
+<!-- Standard JS -->
+<script src="../JavaScript/Standard_JS/standardAcc.js" charset="utf-8"></script>
+<!-- Standard JS -->
+<script src="../JavaScript/Standard_JS/standardForms.js" charset="utf-8"></script>
+</body>
+</html>
